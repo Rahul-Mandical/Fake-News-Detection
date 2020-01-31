@@ -19,6 +19,8 @@ Before you begin please understand the following :
 Dataset : It has a combination of Politifact,LIAR and newsfiles. Each description is clearly explained in the Dataset Preprocessing-1.
           The megaset has been created from these and under the same distribution we have extracted train,dev,test sets. A seperate rar file
           with the raw dataset and links will be provided.
+          Download the datasets at this link. Use the file named megaset.csv for dp2.
+          LINK : https://drive.google.com/open?id=1yF9V5elhDw6JtWi7jaBPnOY1Z1N--w7t
 
 How to set up:
    
