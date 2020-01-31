@@ -1,0 +1,72 @@
+Hello Team!!
+
+I have provided you with the skeletal structure a.k.a the base models for all the algorithms that we will be building on. It is up to you
+guys to add the muscle,tissue and blood a.k.a optimize it. We shall add the skin later.
+
+In this repository you shall find multiple files whose description will be given. The files are commented to the best of my understanding and for your benefit. Go through each file and comment throughly and while you are at it, I want you to vet the code. Do NOT skip anything as the team needs to be on same page.Let me know asap if there are any doubts.
+
+Basic description are as follows:
+
+Dataset Preprocessing-1 : Cleans and creates the megaset.
+Dataset Preprocessing-2 : Creates the train dev test split and writes the files. Imported by Vectorization
+Vectorization : This creates two vectorized sets i.e tfidf and hash. We shall be creating two different models which uses hash and tfidf.
+                You shall be importing this file for creation of every model and using its variables.
+/[A-Za-z]*/ : Model Name Duh!
+
+
+Before you begin please understand the following :
+
+Dataset : It has a combination of Politifact,LIAR and newsfiles. Each description is clearly explained in the Dataset Preprocessing-1.
+          The megaset has been created from these and under the same distribution we have extracted train,dev,test sets. A seperate rar file
+          with the raw dataset and links will be provided.
+
+How to set up:
+   
+Step 1: Download the required files.
+Step 2: Although Dataset Preprocessing-1 will not be required as the megaset will be provided, use it as reference.
+        Run Dataset Preprocesing 2.
+Step 3: You can uncomment the writing file. But dont forget to recomment once run. 
+Step 4: Run Vectorization. This is needed to be run everytime you build a model. Extra importance must be give to vectorization.
+Step 5: Run the pre built models to understand and process the outputs.
+
+If any library errors are encountered please install the said library by googling . Mostly its pip-install.
+
+
+What to code and what to build will be delegated by Rahul "Legatus" Mandical. We shall use "To try" list as a guide. You shall be writing seperate notebooks with the said variations.
+
+ALL THE BEST!!!!!!!!
+
+An EXTREMELY IMPORTANT message from Rahul:
+PLEASE FOLLOW THE FORMAT THAT I HAVE USED. THAT INCLUDES THE STRUCTURE OF EACH NOTEBOOK, MODEL NAMES and VARIABLE NAMES. PLEASE COMMENT THE
+CODE PROPERLY. AS THIS IS A BIG PROJECT, THAT IS BEING WRITTEN BY MULTIPLE PEOPLE AND WE WANT TO HAVE CONSISTENCY.
+
+
+A part of to try list will be handed to each member of the team to work on. Base your workings on the priority.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+To try : [Priority out of 10]
+--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+General :
+
+Metric Right now has been chosen accuracy. Explore other metrics [4]
+If too much overfitting, try cross validation kfold or Leave One Out Cross Validation (LOOCV) [8]
+max_df and min_df values can be played around with . Start off with 70% , maybe try 50-90% . min_df can try 1-5 [4] 
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Naive Bayes : Optimization required, tests has been run only with dev, Final Optimised model need to be created
+
+Try with Gaussian and Bernoulli . We shall choose the best one based on accuracy of test. [7]
+Normalization? Not sure if required for NB or PAC but try nontheless [5]
+Learn about laplace smoothing . Tweak alpha [8]
+Answer my questions in the notebook ;-; [10]
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Passive Aggresive Classifier : Optimization required, tests has been run only with dev, Final Optimised model need to be created.
+
+Optimize for better accuracy by tweaking the attributes.[8]
+Find the best iter by throwing in a loop. [9]
+
+--------------------------------------------------------------------------------------------------------------------------------------------
