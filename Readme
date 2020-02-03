@@ -62,13 +62,12 @@ Naive Bayes : Optimization required, tests has been run only with dev, Final Opt
 Try with Gaussian and Bernoulli . We shall choose the best one based on accuracy of test. [7]
 Normalization? Not sure if required for NB or PAC but try nontheless [5]
 Learn about laplace smoothing . Tweak alpha [8]
-Answer my questions in the notebook ;-; [10]
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 Passive Aggresive Classifier : Optimization required, tests has been run only with dev, Final Optimised model need to be created.
 
-Optimize for better accuracy by tweaking the attributes.[8]
-Find the best iter by throwing in a loop. [9]
+Optimize for better accuracy by tweaking the attributes.[9]
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------
