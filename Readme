@@ -26,7 +26,7 @@ How to set up:
    
 Step 1: Download the required files.
 Step 2: Although Dataset Preprocessing-1 will not be required as the megaset will be provided, use it as reference.
-        Run Dataset Preprocesing 2.
+        Run Dataset Preprocesing 2. Check your version using the version file.
 Step 3: You can uncomment the writing file. But dont forget to recomment once run. 
 Step 4: Run Vectorization. This is needed to be run everytime you build a model. Extra importance must be give to vectorization.
 Step 5: Run the pre built models to understand and process the outputs.
